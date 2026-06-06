@@ -1,0 +1,22 @@
+# Build output
+
+bin/
+obj/
+
+# SQLite database
+
+SportsPro.db
+
+# macOS
+
+.DS_Store
+
+# Visual Studio / VS Code
+
+.vs/
+.vscode/
+
+# User-specific files
+
+*.user
+*.suo
