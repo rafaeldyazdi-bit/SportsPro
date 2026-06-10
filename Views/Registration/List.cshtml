@@ -45,8 +45,8 @@ else
                              "ProductID", "Name"))">
             <option value="0">Select a product...</option>
         </select>
-
-        <input type="hidden" asp-for="Customer.CustomerID" />
-        <button type="submit" class="btn btn-primary mt-2">Register</button>
     </div>
+    <input type="hidden" asp-for="Customer.CustomerID" />
+    <button type="submit" class="btn btn-primary mt-2">Register</button>
+    <a asp-action="Index" class="btn btn-primary mt-2">Cancel</a>
 </form>
